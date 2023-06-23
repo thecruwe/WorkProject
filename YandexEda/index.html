@@ -7,451 +7,469 @@
     <title>YandexEda</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-leftSide">
-            <div class="header-leftSide__logo">
-                <a href="https://eda.yandex.ru/moscow?shippingType=delivery">
-                <img src="https://avatars.mds.yandex.net/get-bunker/994123/62e784df90b806d5d740ef444a393b528f3226bc/svg">
-                </a>
-            </div>
-            <div class="header-leftSide__address">
-                <button class="header-leftSide__address-button">
-                    <span class="header-leftSide__address-span">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="header-leftSide__address-icon"><path d="M18.529 6.125a.5.5 0 0 0-.654-.654L3.307 11.565a.5.5 0 0 0-.307.461v.196a.5.5 0 0 0 .32.466l5.76 2.232 2.223 5.76a.5.5 0 0 0 .467.32h.195a.5.5 0 0 0 .461-.307L18.53 6.125Z" fill="currentColor"></path></svg>
-                        Укажите адрес доставки
-                    </span>
-                </button>
-            </div>
-        </div>
-        <div class="header-rightSide">
-            <div class="header-rightSide__changeLanguage">
-                <svg width="1em" height="1em" 
-                viewBox="0 0 25 24" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg" 
-                class="header-rightSide__changeLanguage-svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 2c5.523 0 10 4.477 10 10s-4.477 10-10 10-10-4.477-10-10 4.477-10 10-10Zm.002 18a.21.21 0 0 0 .077-.024c.06-.027.164-.089.303-.22.288-.27.638-.755.976-1.506.584-1.297 1.013-3.128 1.118-5.25h-4.952c.105 2.122.534 3.953 1.118 5.25.338.75.688 1.236.976 1.507.139.13.243.192.303.22.05.022.072.023.078.023h.003Zm-3.024-.59c-.804-1.62-1.343-3.876-1.456-6.41h-3.46a8.009 8.009 0 0 0 4.916 6.41ZM4.562 11h3.46c.113-2.534.652-4.79 1.456-6.41A8.008 8.008 0 0 0 4.562 11Zm10.96 8.41A8.008 8.008 0 0 0 20.438 13h-3.46c-.113 2.534-.652 4.79-1.456 6.41ZM20.438 11a8.008 8.008 0 0 0-4.916-6.41c.804 1.62 1.343 3.876 1.456 6.41h3.46Zm-7.94-7a.211.211 0 0 0-.077.024c-.06.027-.164.089-.303.22-.288.27-.638.755-.976 1.506-.584 1.297-1.013 3.128-1.118 5.25h4.952c-.105-2.122-.534-3.953-1.118-5.25-.338-.75-.688-1.236-.976-1.507a1.176 1.176 0 0 0-.303-.22.206.206 0 0 0-.078-.023h-.003Z" fill="currentColor"></path>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 2c5.523 0 10 4.477 10 10s-4.477 10-10 10-10-4.477-10-10 4.477-10 10-10Zm.002 18a.21.21 0 0 0 .077-.024c.06-.027.164-.089.303-.22.288-.27.638-.755.976-1.506.584-1.297 1.013-3.128 1.118-5.25h-4.952c.105 2.122.534 3.953 1.118 5.25.338.75.688 1.236.976 1.507.139.13.243.192.303.22.05.022.072.023.078.023h.003Zm-3.024-.59c-.804-1.62-1.343-3.876-1.456-6.41h-3.46a8.009 8.009 0 0 0 4.916 6.41ZM4.562 11h3.46c.113-2.534.652-4.79 1.456-6.41A8.008 8.008 0 0 0 4.562 11Zm10.96 8.41A8.008 8.008 0 0 0 20.438 13h-3.46c-.113 2.534-.652 4.79-1.456 6.41ZM20.438 11a8.008 8.008 0 0 0-4.916-6.41c.804 1.62 1.343 3.876 1.456 6.41h3.46Zm-7.94-7a.211.211 0 0 0-.077.024c-.06.027-.164.089-.303.22-.288.27-.638.755-.976 1.506-.584 1.297-1.013 3.128-1.118 5.25h4.952c-.105-2.122-.534-3.953-1.118-5.25-.338-.75-.688-1.236-.976-1.507a1.176 1.176 0 0 0-.303-.22.206.206 0 0 0-.078-.023h-.003Z" fill="currentColor"></path>
-                </svg>
-                <div>Русский</div>
-            </div>
-            <div>
-                <button class="header-rightSide__login-button"><span class="header-rightSide__login-span">Войти</span></button>
-            </div>
-        </div>
-    </header>
-    <div class="contant">
-        <div class="contant-container">
-            <aside class="aside-leftSide">
-                <a class="aside-leftSide__buttonBack">
-                    <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="aside-leftSide__buttonBack-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m7.8 11 5.246-5.246a.5.5 0 0 0 0-.708l-.692-.692a.5.5 0 0 0-.708 0L4 12l7.646 7.646a.5.5 0 0 0 .708 0l.692-.692a.5.5 0 0 0 0-.708L7.8 13h11.7a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H7.8Z" fill="currentColor"></path>
-                    </svg>
-                    <span class="aside-leftSide__buttonBack-span">Все рестораны</span>
-                </a>
-                <h1 class="aside-leftSide__title">Меню</h1>
-                <ul>
-                    <li class="aside-leftSide__items item">Салаты и закуски</li>
-                    <li class="aside-leftSide__items">Паста</li>
-                    <li class="aside-leftSide__items">Суши-бар</li>
-                    <li class="aside-leftSide__items">Горячие блюда</li>
-                </ul>
-            </aside>
-            <main class="main-centralBlock">
-                <div class="centralBlockHighline">
-                        <div class="centralBlockHighline-headPicture">
-                            <img src="https://eda.yandex/images/3439767/60cc137523f6a8e0750404068edf6ecf-1100x825.jpg" class="centralBlockHighline-image" data-testid="smart-image-img" loading="lazy">
-                        </div>
-                        <div class="centralBlockHighline__gradient"></div>
-                        <h1 class="centralBlockHighline__title">My-My</h1>
-                        <div class="centralBlockHighline__actions">
-                            <button class="centralBlockHighline__actions-deliveryButton">
-                                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="centralBlockHighline__actions-deliveryButton-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m17.809 4.45.67-.27a1.554 1.554 0 0 0 .958-1.649l-3.061.54a2.787 2.787 0 1 0 1.433 1.379Zm-14.68 6.293a2.914 2.914 0 0 1 2.694-1.56c.476.019 1.04.028 1.663.039 1.253.02 2.742.045 4.216.155.293 3.884-.856 6.327-2.552 7.923l-.3 2.1-5.2-.3.85-6.4-1.951-.847.58-1.11ZM8.85 19.4 8.6 21c.444 0 1.416.011 2.587.024h.001c1.768.02 3.985.046 5.512.046.366-1.189.665-2.414.915-3.76l1.76 3.763c.613-.485.92-.727 1.115-1.024a2.2 2.2 0 0 0 .36-1.296c-.014-.355-.152-.72-.427-1.453l-2.062-5.473c-.037-.097-.061-.162-.088-.21a.736.736 0 0 0-.132-.251c-.856-1.052-2.78-1.575-4.932-1.842.368 4.38-1.125 7.824-4.359 9.876Z" fill="currentColor"></path>
-                                </svg>
-                                <div>
-                                    <div class="centralBlockHighline__actions-deliveryButton-title">35&thinsp;-&thinsp;45</div>
-                                    <div class="centralBlockHighline__actions-deliveryButton-subtitle">мин</div>
-                                </div>
-                            </button>
-                            <button class="centralBlockHighline__actions-ratingButton">
-                                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="centralBlockHighline__actions-ratingButton-svg"><path d="m12 16-5.878 4.09 2.074-6.854L2.489 8.91l7.16-.146L12 2l2.351 6.764 7.16.146-5.707 4.326 2.074 6.854L12 16Z" fill="currentColor"></path>
-                                </svg>
-                                <div class="centralBlockHighline__actions-ratingInfo">
-                                    <div class="centralBlockHighline__actions-title" style="font-size: 20px;">4.8</div>
-                                    <div class="centralBlockHighline__actions-subtitle" style="font-size: 13px;">200+</div>
-                                </div>
-                            </button>
-                            <button class="centralBlockHighline__actions-infromationButton">
-                                <svg width="1em" height="1em" 
+    <div class="main-wrapper">
+        <header class="header">
+            <div class="header__section">
+                <div class="header__logo">
+                    <a href="https://eda.yandex.ru/moscow?shippingType=delivery">
+                        <img src="https://avatars.mds.yandex.net/get-bunker/994123/62e784df90b806d5d740ef444a393b528f3226bc/svg">
+                    </a>
+                </div>
+                <div class="header-address">
+                    <div class="header-address__button">
+                        <span class="header-address__span">
+                            <svg 
                                 viewBox="0 0 24 24" 
                                 fill="none" 
                                 xmlns="http://www.w3.org/2000/svg" 
-                                class="centralBlockHighline__actions-infromationButtonSvg">
-                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"></circle>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm.5 7a.5.5 0 0 1-.5-.5V10a.5.5 0 0 0-.5-.5H10v1h.5a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-.5.5H10v1h4v-1h-.5Z" fill="currentColor"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                <div class="main-items">
-                    <div class="main-items__title">
-                        <h2>Салаты и закуски</h2>
-                    </div>
-                    <div class="main-items__list">
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат с фрунчозой и овощами</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3580810/b8578b0b949d341a4be45336316152b5-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">219&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат с морепродуктами</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3774488/a11a9ba04750b64183ed94295e6078e0-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">159&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат из индейки с огурцом и яблоком</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3472725/c107a62c9a2b0dd36f680b9c08a8a067-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">119&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат грузинский</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3547279/3a4415c8496ff3f473450e2134b38e19-216x188.png" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">149&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат с из капусты с редисом</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/2750126/72043e0c3f8f0d737446466902616302-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">139&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат из помидор со сметанной заправкой</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3378693/3db9dae81c036133a74008941c59e1fa-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат Капрезе с моцарелой</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3456802/4027d1eb830099f8f13198673489a5e0-216x188.png" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат Греческий с маслом</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3529908/d24ef4a6d20085f36dda6734b736dfb2-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Салат 6 соток</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div class="main-items">
-                    <div class="main-items__title">
-                        <h2>Паста</h2>
-                    </div>
-                    <div class="main-items__list">
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3538649/6c50d312b97b296665eee3a5acc9d89c-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Удон с говядиной с черным перцем</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="	https://eda.yandex/images/3483997/b6333bb566990b79f770945c81cb9a76-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Удон с курицей с черным перцем</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3596693/b164a9b715228e7b2eca38a072d2569d-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Удон с курицей карри</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/2370127/f59f586210e24f4e6551e9ca835cbce4-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Рисовая лапша с морепродуктами</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/3502728/a1cf6dfcd29b4fa838b851b722b850f9-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Спагетти с морепродуктами</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="main-items__list-container">
-                            <div class="main-items__list-inner">
-                                <div class="main-items__list-Picture">
-                                    <img src="https://eda.yandex/images/2783965/be8bb336ed80860993661e44cbdc8bd9-216x188.JPEG" class="main-items__listImg" data-testid="smart-image-img" loading="lazy">
-                                </div>
-                                <div class="main-items__list-description">
-                                    <div class="main-items__list-price">
-                                        <span class="main-items__list-numberPrice">129&thinsp;₽</span>
-                                    </div>
-                                    <div class="main-items__list-name">Рис с курицей карри</div>
-                                    <div class="main-items__list-weight">100&nbsp;г</div>
-                                </div>
-                                <div class="main-items__list-button">
-                                    <button class="main-items__list-buttonAdd">
-                                        <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="main-items__list-button-svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
-                                        </svg>
-                                        <span class="main-items__list-buttonSpan">Добавить</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                                class="header-address__svg"
+                            >
+                                <path d="M18.529 6.125a.5.5 0 0 0-.654-.654L3.307 11.565a.5.5 0 0 0-.307.461v.196a.5.5 0 0 0 .32.466l5.76 2.232 2.223 5.76a.5.5 0 0 0 .467.32h.195a.5.5 0 0 0 .461-.307L18.53 6.125Z" fill="currentColor"></path></svg>
+                            Укажите адрес доставки
+                        </span>
                     </div>
                 </div>
-            </main>
-            <aside class="aside-rightSide">
-                <div class="aside-rightSide__сart">
-                    <div class="сart__title">
-                        <h2>Корзина</h2>
+            </div>
+            <div class="header__section">
+                <div class="header-change">
+                    <svg width="1em" height="1em" 
+                        viewBox="0 0 25 24" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        class="header-change__svg"
+                    >
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 2c5.523 0 10 4.477 10 10s-4.477 10-10 10-10-4.477-10-10 4.477-10 10-10Zm.002 18a.21.21 0 0 0 .077-.024c.06-.027.164-.089.303-.22.288-.27.638-.755.976-1.506.584-1.297 1.013-3.128 1.118-5.25h-4.952c.105 2.122.534 3.953 1.118 5.25.338.75.688 1.236.976 1.507.139.13.243.192.303.22.05.022.072.023.078.023h.003Zm-3.024-.59c-.804-1.62-1.343-3.876-1.456-6.41h-3.46a8.009 8.009 0 0 0 4.916 6.41ZM4.562 11h3.46c.113-2.534.652-4.79 1.456-6.41A8.008 8.008 0 0 0 4.562 11Zm10.96 8.41A8.008 8.008 0 0 0 20.438 13h-3.46c-.113 2.534-.652 4.79-1.456 6.41ZM20.438 11a8.008 8.008 0 0 0-4.916-6.41c.804 1.62 1.343 3.876 1.456 6.41h3.46Zm-7.94-7a.211.211 0 0 0-.077.024c-.06.027-.164.089-.303.22-.288.27-.638.755-.976 1.506-.584 1.297-1.013 3.128-1.118 5.25h4.952c-.105-2.122-.534-3.953-1.118-5.25-.338-.75-.688-1.236-.976-1.507a1.176 1.176 0 0 0-.303-.22.206.206 0 0 0-.078-.023h-.003Z" fill="currentColor"></path>
+                    </svg>
+                    <div>Русский</div>
+                </div>
+                <div class="header-address__action">
+                    Войти
+                </div>
+            </div>
+        </header>
+        <div class="content">
+                <aside class="sidebar-menu">
+                    <div class="menu__action">
+                        <svg 
+                            width="1em" 
+                            height="1em" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            class="menu__action-svg"
+                        >
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="m7.8 11 5.246-5.246a.5.5 0 0 0 0-.708l-.692-.692a.5.5 0 0 0-.708 0L4 12l7.646 7.646a.5.5 0 0 0 .708 0l.692-.692a.5.5 0 0 0 0-.708L7.8 13h11.7a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H7.8Z" fill="currentColor"></path>
+                        </svg>
+                        <span class="menu__action-span">Все рестораны</span>
                     </div>
-                    <div class="сart__emptyCart">
-                        <img class="сart__emptyCart_img" src="https://avatars.mds.yandex.net/get-bunker/61205/a11b38948b6d328e2f739d602fa36b15b2680ba8/svg" alt="" class="сart__emptyCart_logo">
-                        <div class="сart__emptyCart_title">В вашей корзине пока пусто</div>
-                    </div>
-                    <div class="сart-footer">
-                        <div class="сart-footer__banner">
-                            <div class="сart-footer__bottomBanner-icon" style="background-image: url(https://avatars.mds.yandex.net/get-bunker/60661/e0b70b2b2a584c45a33c9f9866609f9b2e95019c/svg)">
-                            </div>
-                            <div class="сart-footer__banner-info">
-                                <div data-testid="bottom-banner-name" style="color: rgb(90, 195, 26);">Бесплатная доставка от 600&thinsp;₽ · 25–35 мин</div>
-                                <div data-testid="bottom-banner-description" style="color: rgb(158, 155, 152);">Подробные условия</div>
-                            </div>
-                                <svg width="1em" height="1em" viewBox="0 0 24 24" 
-                                fill="none" 
-                                xmlns="http://www.w3.org/2000/svg" 
-                                color="#9E9B98"
-                                style="width: 20px; height: 20px; margin-right: 16px; flex-shrink: 0; vertical-align: middle;"
+                    <h1 class="sidebar-menu__title">Меню</h1>
+                    <ul>
+                        <li class="sidebar-menu__item active">Салаты и закуски</li>
+                        <li class="sidebar-menu__item">Паста</li>
+                        <li class="sidebar-menu__item">Суши-бар</li>
+                        <li class="sidebar-menu__item">Горячие блюда</li>
+                    </ul>
+                </aside>
+                <main class="main-centralBlock">
+                    <div class="preview">
+                            <div class="preview__logo">
+                                <img 
+                                    src="https://eda.yandex/images/3439767/60cc137523f6a8e0750404068edf6ecf-1100x825.jpg" 
+                                    class="preview__logo-img"
                                 >
-                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"></circle>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm.5 7a.5.5 0 0 1-.5-.5V10a.5.5 0 0 0-.5-.5H10v1h.5a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-.5.5H10v1h4v-1h-.5Z" fill="currentColor"></path>
-                            </svg>
+                            </div>
+                            <div class="preview__gradient"></div>
+                            <h1 class="preview__title">My-My</h1>
+                            <div class="preview__actions">
+                                <div class="preview__actions-delivery">
+                                    <svg
+                                        viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        class="preview__actions-svg"
+                                    >
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="m17.809 4.45.67-.27a1.554 1.554 0 0 0 .958-1.649l-3.061.54a2.787 2.787 0 1 0 1.433 1.379Zm-14.68 6.293a2.914 2.914 0 0 1 2.694-1.56c.476.019 1.04.028 1.663.039 1.253.02 2.742.045 4.216.155.293 3.884-.856 6.327-2.552 7.923l-.3 2.1-5.2-.3.85-6.4-1.951-.847.58-1.11ZM8.85 19.4 8.6 21c.444 0 1.416.011 2.587.024h.001c1.768.02 3.985.046 5.512.046.366-1.189.665-2.414.915-3.76l1.76 3.763c.613-.485.92-.727 1.115-1.024a2.2 2.2 0 0 0 .36-1.296c-.014-.355-.152-.72-.427-1.453l-2.062-5.473c-.037-.097-.061-.162-.088-.21a.736.736 0 0 0-.132-.251c-.856-1.052-2.78-1.575-4.932-1.842.368 4.38-1.125 7.824-4.359 9.876Z" fill="currentColor"></path>
+                                    </svg>
+                                    <div>
+                                        <div class="preview__actions-title">35 - 45</div>
+                                        <div class="preview__actions-subtitle">мин</div>
+                                    </div>
+                                </div>
+                                <div class="preview__actions-ratingButton">
+                                    <svg 
+                                        viewBox="0 0 24 24" 
+                                        fill="none" xmlns="http://www.w3.org/2000/svg" 
+                                        class="preview__actions-svg"
+                                    >
+                                        <path d="m12 16-5.878 4.09 2.074-6.854L2.489 8.91l7.16-.146L12 2l2.351 6.764 7.16.146-5.707 4.326 2.074 6.854L12 16Z" fill="currentColor"></path>
+                                    </svg>
+                                    <div class="preview__actions-ratingInfo">
+                                        <div class="preview__actions-title">4.8</div>
+                                        <div class="preview__actions-subtitle">200+</div>
+                                    </div>
+                                </div>
+                                <div class="preview__actions-information">
+                                    <svg
+                                        viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        class="preview__actions-information-svg"
+                                    >
+                                        <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"></circle>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm.5 7a.5.5 0 0 1-.5-.5V10a.5.5 0 0 0-.5-.5H10v1h.5a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-.5.5H10v1h4v-1h-.5Z" fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="category">
+                        <h2 class="category__title">Салаты и закуски</h2>
+                        <div class="category__products-list">
+                            <div class="product">
+                                    <img 
+                                        src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                        class="product__picture" 
+                                        loading="lazy"
+                                    />
+
+                                        <span class="product__price">129 ₽</span>
+                                        <div class="product__title">Салат с фрунчозой и овощами</div>
+                                        <div class="product__weight">100 г</div>
+                                    <div class="product__actions">
+                                        <div class="product__action">
+                                            <svg 
+                                                width="1em" 
+                                                height="1em" 
+                                                viewBox="0 0 24 24" 
+                                                fill="none" 
+                                                xmlns="http://www.w3.org/2000/svg" 
+                                                class="product__action-svg"
+                                            >
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                            </svg>
+                                            <span class="product__action-title">Добавить</span>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="category">
+                        <div class="category__title">
+                            <h2>Паста</h2>
+                        </div>
+                        <div class="category__products-list">
+                            <div class="product">
+                                <img 
+                                    src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                    class="product__picture" 
+                                    loading="lazy"
+                                />
+
+                                    <span class="product__price">129 ₽</span>
+                                    <div class="product__title">Салат с фрунчозой и овощами</div>
+                                    <div class="product__weight">100 г</div>
+                                <div class="product__actions">
+                                    <div class="product__action">
+                                        <svg 
+                                            width="1em" 
+                                            height="1em" 
+                                            viewBox="0 0 24 24" 
+                                            fill="none" 
+                                            xmlns="http://www.w3.org/2000/svg" 
+                                            class="product__action-svg"
+                                        >
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                        </svg>
+                                        <span class="product__action-title">Добавить</span>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="product">
+                            <img 
+                                src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                class="product__picture" 
+                                loading="lazy"
+                            />
+
+                                <span class="product__price">129 ₽</span>
+                                <div class="product__title">Салат с фрунчозой и овощами</div>
+                                <div class="product__weight">100 г</div>
+                            <div class="product__actions">
+                                <div class="product__action">
+                                    <svg 
+                                        width="1em" 
+                                        height="1em" 
+                                        viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        class="product__action-svg"
+                                    >
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                    </svg>
+                                    <span class="product__action-title">Добавить</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <img 
+                                src="https://eda.yandex/images/3420935/139d9056fa154c00968082aa4bf4f955-216x188.JPEG" 
+                                class="product__picture" 
+                                loading="lazy"
+                            />
+
+                                <span class="product__price">129 ₽</span>
+                                <div class="product__title">Салат с фрунчозой и овощами</div>
+                                <div class="product__weight">100 г</div>
+                            <div class="product__actions">
+                                <div class="product__action">
+                                    <svg 
+                                        width="1em" 
+                                        height="1em" 
+                                        viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        class="product__action-svg"
+                                    >
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6a1 1 0 0 0-1 1v4H7a1 1 0 1 0 0 2h4v4a1 1 0 1 0 2 0v-4h4a1 1 0 1 0 0-2h-4V7a1 1 0 0 0-1-1Z" fill="currentColor"></path>
+                                    </svg>
+                                    <span class="product__action-title">Добавить</span>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
-                </div>
-            </aside>
-        </div>
+                </main>
+                <aside class="sidebar-cart">
+                            <h2 class="sidebar-cart__title">Корзина</h2>
+                        <div class="sidebar-cart__empty">
+                            <img class="sidebar-cart__empty-img" src="https://avatars.mds.yandex.net/get-bunker/61205/a11b38948b6d328e2f739d602fa36b15b2680ba8/svg" alt="" class="sidebar-cart__empty_logo">
+                            <div class="sidebar-cart__empty-title">В вашей корзине пока пусто</div>
+                        </div>
+                        <div class="cart-footer">
+                                <div class="cart-footer__bottom-img" style="background-image: url(https://avatars.mds.yandex.net/get-bunker/60661/e0b70b2b2a584c45a33c9f9866609f9b2e95019c/svg)">
+                                </div>
+                                <div class="cart-footer__info">
+                                    <div style="color: rgb(90, 195, 26);">Бесплатная доставка от 600 ₽ · 25–35 мин</div>
+                                    <div style="color: rgb(158, 155, 152);">Подробные условия</div>
+                                </div>
+                                    <svg class="cart-footer__info-svg" width="1em" height="1em" viewBox="0 0 24 24" 
+                                        fill="none" 
+                                        xmlns="http://www.w3.org/2000/svg" 
+                                        color="#9E9B98"
+                                        >
+                                        <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"></circle>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm.5 7a.5.5 0 0 1-.5-.5V10a.5.5 0 0 0-.5-.5H10v1h.5a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-.5.5H10v1h4v-1h-.5Z" fill="currentColor"></path>
+                                    </svg>
+                        </div>
+                </aside>
+            </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
