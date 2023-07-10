@@ -4,55 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&display=swap" rel="stylesheet">
     <title>YandexEda</title>
 </head>
 <body>
     <div class="main-wrapper">
-        <header class="header">
-            <div class="header__section">
+        <!-- <header class="header">
                 <div class="header__logo">
                     <a href="https://eda.yandex.ru/moscow?shippingType=delivery">
                         <img src="https://avatars.mds.yandex.net/get-bunker/994123/62e784df90b806d5d740ef444a393b528f3226bc/svg">
                     </a>
                 </div>
-                <div class="header-address">
-                    <div class="header-address__button">
-                        <span class="header-address__span">
+                <div class="header__address">
+                    <div class="header__address-action">
                             <svg 
                                 viewBox="0 0 24 24" 
                                 fill="none" 
                                 xmlns="http://www.w3.org/2000/svg" 
-                                class="header-address__svg"
+                                class="header__address-svg"
                             >
                                 <path d="M18.529 6.125a.5.5 0 0 0-.654-.654L3.307 11.565a.5.5 0 0 0-.307.461v.196a.5.5 0 0 0 .32.466l5.76 2.232 2.223 5.76a.5.5 0 0 0 .467.32h.195a.5.5 0 0 0 .461-.307L18.53 6.125Z" fill="currentColor"></path></svg>
                             Укажите адрес доставки
-                        </span>
                     </div>
                 </div>
-            </div>
-            <div class="header__section">
-                <div class="header-change">
-                    <svg width="1em" height="1em" 
+                <div class="header__language">
+                    <svg 
                         viewBox="0 0 25 24" 
                         fill="none" 
                         xmlns="http://www.w3.org/2000/svg" 
-                        class="header-change__svg"
+                        class="header__language-svg"
                     >
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 2c5.523 0 10 4.477 10 10s-4.477 10-10 10-10-4.477-10-10 4.477-10 10-10Zm.002 18a.21.21 0 0 0 .077-.024c.06-.027.164-.089.303-.22.288-.27.638-.755.976-1.506.584-1.297 1.013-3.128 1.118-5.25h-4.952c.105 2.122.534 3.953 1.118 5.25.338.75.688 1.236.976 1.507.139.13.243.192.303.22.05.022.072.023.078.023h.003Zm-3.024-.59c-.804-1.62-1.343-3.876-1.456-6.41h-3.46a8.009 8.009 0 0 0 4.916 6.41ZM4.562 11h3.46c.113-2.534.652-4.79 1.456-6.41A8.008 8.008 0 0 0 4.562 11Zm10.96 8.41A8.008 8.008 0 0 0 20.438 13h-3.46c-.113 2.534-.652 4.79-1.456 6.41ZM20.438 11a8.008 8.008 0 0 0-4.916-6.41c.804 1.62 1.343 3.876 1.456 6.41h3.46Zm-7.94-7a.211.211 0 0 0-.077.024c-.06.027-.164.089-.303.22-.288.27-.638.755-.976 1.506-.584 1.297-1.013 3.128-1.118 5.25h4.952c-.105-2.122-.534-3.953-1.118-5.25-.338-.75-.688-1.236-.976-1.507a1.176 1.176 0 0 0-.303-.22.206.206 0 0 0-.078-.023h-.003Z" fill="currentColor"></path>
                     </svg>
-                    <div>Русский</div>
+                    Русский
                 </div>
-                <div class="header-address__action">
+                <div class="header__sign-in">
                     Войти
                 </div>
-            </div>
-        </header>
-        <div class="content">
+            </header>
+            <div class="content">
                 <aside class="sidebar-menu">
                     <div class="menu__action">
                         <svg 
-                            width="1em" 
-                            height="1em" 
                             viewBox="0 0 24 24" 
                             fill="none" 
                             xmlns="http://www.w3.org/2000/svg" 
@@ -70,7 +65,7 @@
                         <li class="sidebar-menu__item">Горячие блюда</li>
                     </ul>
                 </aside>
-                <main class="main-centralBlock">
+                <main class="main-block">
                     <div class="preview">
                             <div class="preview__logo">
                                 <img 
@@ -90,12 +85,12 @@
                                     >
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="m17.809 4.45.67-.27a1.554 1.554 0 0 0 .958-1.649l-3.061.54a2.787 2.787 0 1 0 1.433 1.379Zm-14.68 6.293a2.914 2.914 0 0 1 2.694-1.56c.476.019 1.04.028 1.663.039 1.253.02 2.742.045 4.216.155.293 3.884-.856 6.327-2.552 7.923l-.3 2.1-5.2-.3.85-6.4-1.951-.847.58-1.11ZM8.85 19.4 8.6 21c.444 0 1.416.011 2.587.024h.001c1.768.02 3.985.046 5.512.046.366-1.189.665-2.414.915-3.76l1.76 3.763c.613-.485.92-.727 1.115-1.024a2.2 2.2 0 0 0 .36-1.296c-.014-.355-.152-.72-.427-1.453l-2.062-5.473c-.037-.097-.061-.162-.088-.21a.736.736 0 0 0-.132-.251c-.856-1.052-2.78-1.575-4.932-1.842.368 4.38-1.125 7.824-4.359 9.876Z" fill="currentColor"></path>
                                     </svg>
-                                    <div>
+                                    <div class="preview__actions-description">
                                         <div class="preview__actions-title">35 - 45</div>
                                         <div class="preview__actions-subtitle">мин</div>
                                     </div>
                                 </div>
-                                <div class="preview__actions-ratingButton">
+                                <div class="preview__actions-rating">
                                     <svg 
                                         viewBox="0 0 24 24" 
                                         fill="none" xmlns="http://www.w3.org/2000/svg" 
@@ -103,7 +98,7 @@
                                     >
                                         <path d="m12 16-5.878 4.09 2.074-6.854L2.489 8.91l7.16-.146L12 2l2.351 6.764 7.16.146-5.707 4.326 2.074 6.854L12 16Z" fill="currentColor"></path>
                                     </svg>
-                                    <div class="preview__actions-ratingInfo">
+                                    <div class="preview__actions-description">
                                         <div class="preview__actions-title">4.8</div>
                                         <div class="preview__actions-subtitle">200+</div>
                                     </div>
@@ -130,7 +125,7 @@
                                         class="product__picture" 
                                         loading="lazy"
                                     />
-
+                
                                         <span class="product__price">129 ₽</span>
                                         <div class="product__title">Салат с фрунчозой и овощами</div>
                                         <div class="product__weight">100 г</div>
@@ -156,7 +151,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -182,7 +177,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -208,7 +203,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -234,7 +229,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -260,7 +255,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -286,7 +281,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -312,7 +307,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -338,7 +333,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -370,7 +365,7 @@
                                     class="product__picture" 
                                     loading="lazy"
                                 />
-
+                
                                     <span class="product__price">129 ₽</span>
                                     <div class="product__title">Салат с фрунчозой и овощами</div>
                                     <div class="product__weight">100 г</div>
@@ -396,7 +391,7 @@
                                 class="product__picture" 
                                 loading="lazy"
                             />
-
+                
                                 <span class="product__price">129 ₽</span>
                                 <div class="product__title">Салат с фрунчозой и овощами</div>
                                 <div class="product__weight">100 г</div>
@@ -422,7 +417,7 @@
                                 class="product__picture" 
                                 loading="lazy"
                             />
-
+                
                                 <span class="product__price">129 ₽</span>
                                 <div class="product__title">Салат с фрунчозой и овощами</div>
                                 <div class="product__weight">100 г</div>
@@ -445,31 +440,37 @@
                         </div>
                     </div>
                 </main>
-                <aside class="sidebar-cart">
-                            <h2 class="sidebar-cart__title">Корзина</h2>
-                        <div class="sidebar-cart__empty">
-                            <img class="sidebar-cart__empty-img" src="https://avatars.mds.yandex.net/get-bunker/61205/a11b38948b6d328e2f739d602fa36b15b2680ba8/svg" alt="" class="sidebar-cart__empty_logo">
-                            <div class="sidebar-cart__empty-title">В вашей корзине пока пусто</div>
+                <div class="sidebar-right">
+                    <div class="cart">
+                        <h2 class="cart__title">Корзина</h2>
+                        <div class="cart__empty-block">
+                            <img
+                                src="https://avatars.mds.yandex.net/get-bunker/61205/a11b38948b6d328e2f739d602fa36b15b2680ba8/svg" 
+                                class="cart__empty-block_img"
+                            >
+                            <div class="cart__empty-block-title">В вашей корзине пока пусто</div>
                         </div>
                         <div class="cart-footer">
-                                <div class="cart-footer__bottom-img" style="background-image: url(https://avatars.mds.yandex.net/get-bunker/60661/e0b70b2b2a584c45a33c9f9866609f9b2e95019c/svg)">
-                                </div>
-                                <div class="cart-footer__info">
-                                    <div style="color: rgb(90, 195, 26);">Бесплатная доставка от 600 ₽ · 25–35 мин</div>
-                                    <div style="color: rgb(158, 155, 152);">Подробные условия</div>
-                                </div>
-                                    <svg class="cart-footer__info-svg" width="1em" height="1em" viewBox="0 0 24 24" 
-                                        fill="none" 
-                                        xmlns="http://www.w3.org/2000/svg" 
-                                        color="#9E9B98"
-                                        >
-                                        <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"></circle>
-                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm.5 7a.5.5 0 0 1-.5-.5V10a.5.5 0 0 0-.5-.5H10v1h.5a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-.5.5H10v1h4v-1h-.5Z" fill="currentColor"></path>
-                                    </svg>
+                            <div class="cart-footer__bottom-img" style="background-image: url(https://avatars.mds.yandex.net/get-bunker/60661/e0b70b2b2a584c45a33c9f9866609f9b2e95019c/svg)">
+                            </div>
+                            <div class="cart__footer-info">
+                                <div class="cart__footer-info-title">Бесплатная доставка от 600 ₽ · 25–35 мин</div>
+                                <div class="cart__footer-info-subtitle">Подробные условия</div>
+                            </div>
+                            <svg class="cart__footer-info-svg" width="1em" height="1em" viewBox="0 0 24 24" 
+                                fill="none" 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                color="#9E9B98"
+                            >
+                                <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"></circle>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm.5 7a.5.5 0 0 1-.5-.5V10a.5.5 0 0 0-.5-.5H10v1h.5a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-.5.5H10v1h4v-1h-.5Z" fill="currentColor"></path>
+                            </svg>
                         </div>
-                </aside>
-            </div>
+                    </div>
+                </div>
+            </div> -->
     </div>
-    <script src="app.js"></script>
+    <script type="module" src="icons.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
